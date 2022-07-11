@@ -41,6 +41,7 @@ body{
 
 .content-one{
     display: flex;
+    margin-bottom: 30px;
 }
 .content-one .right-side{
     flex: 1;
@@ -50,6 +51,8 @@ body{
     
 }
 .content-one .left-side h1{
+    align-self: center;
+    justify-self: center;
     font-size: 48px;
     color: white;
     margin-left: 100px;
@@ -108,6 +111,7 @@ body{
 }
 .content-two .ilustrations img{
     width: 100%;
+    height: 100%;
 }
 .content-two .ilustrations p{
     margin-top: 0px;
@@ -125,16 +129,15 @@ body{
     align-self: center;
     height: 30%;
     width: 70%;
-    margin-bottom: 0;
-    margin-top: 100px;
+    margin-bottom: 25px;
    
 }
 .content-three .who{
     font-weight: bold;
-    margin-top: 0;
     width: 50%;
     align-self: flex-end;
-    margin-bottom: 100px;
+    font-size: 30px;
+    margin-bottom: 0;
 }
 .content-four{
     display: flex;
